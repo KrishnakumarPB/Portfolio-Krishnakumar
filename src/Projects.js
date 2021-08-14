@@ -16,7 +16,7 @@ function Projects (){
         title="Tic Tac Toe"/>
         <Projectcard
         imgurl={Moviereview}
-        liveurl="https://movie-review-live.netlify.app/"
+        liveurl="https://react-jhdixq.stackblitz.io"
         title="Movie Review"/>
         <Projectcard
         imgurl={Memegenerator}
