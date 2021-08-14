@@ -3,11 +3,17 @@ import "./style.css"
 
 let element=""
 var prevelement=""
+var aelement=""
+var prevaelement=""
 function handleClick(id){
 prevelement=document.querySelector(".current");
 prevelement.classList.remove("current");
 prevelement.classList.add("inactive")
 element=document.getElementById(id);
+prevaelement=document.querySelector(".active-alink");
+prevaelement.classList.toggle("active-alink")
+aelement=document.getElementById("a"+id)
+aelement.classList.toggle("active-alink");
 element.classList.remove("inactive")
 element.classList.add("current");
 }
@@ -22,13 +28,13 @@ function Header(){
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class=" linkitem" href="#home"  onClick={()=>handleClick("home")}>Home <span class="sr-only">(current)</span></a>
+        <a class=" linkitem active-alink" href="#home"  id="ahome" onClick={()=>handleClick("home")}>Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item active">
-        <a class=" linkitem" href="#projects" onClick={()=>handleClick("projects")}>Projects</a>
+        <a class=" linkitem" href="#projects" id="aprojects" onClick={()=>handleClick("projects")}>Projects</a>
       </li>
       <li class="nav-item active">
-        <a class=" linkitem" href="#contact" onClick={()=>handleClick("contact")}>Contact</a>
+        <a class=" linkitem" href="#contact" id="acontact" onClick={()=>handleClick("contact")}>Contact</a>
       </li>
     </ul>
   </div>
