@@ -1,0 +1,75 @@
+.projects-title
+{
+    display: block;
+    text-align: center;
+    color: white;
+    text-decoration: underline rgb(241, 52, 18);
+}
+.projects-container
+{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.card-container
+{
+    height:300px;
+    width:400px;
+    margin-top: 10px;
+    border-radius: 15px;
+    margin:10px;
+    opacity:100%;
+    background-color: black;
+    position: relative;
+    
+}
+.card-container >img{
+    border:3px solid white;
+    height:300px;
+    width:400px;
+    border-radius: 15px;
+    
+}
+.card-container >img:hover
+{
+    opacity:70%;
+    background-color: rgb(0, 0, 0);
+}
+.card-container >img:hover +.live-btn
+{
+    background-color: blue;
+}
+.live-btn
+{
+    left:155px;
+    top:130px;
+    color: white;
+    border:1px solid black;
+    position: absolute;
+    background: transparent;
+    padding:5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.live-btn:hover{
+    text-decoration: none;
+    color: white;
+    background: blue;;
+    border:1px solid rgb(255, 255, 255);
+    height:38px;
+}
+
+.project-title
+{
+    position: absolute;
+    background-color: teal;
+    width:350px;
+    text-align:center;
+    top:265px;
+    left:10px;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
