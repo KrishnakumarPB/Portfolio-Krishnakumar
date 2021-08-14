@@ -7,7 +7,7 @@ function Home(){
     <div class="homecontent row " >
         <div class="col-6 description">
           <p>
-          <span className="title"> <span className="highlight"> I'm</span> Krishnakumar P B</span>
+          <span className="title"> <span className="highlight"> I'm</span> Krishnakumar</span>
             <br/>
             Software developer having 2 years of experience in a startup firm of customizing Zoho online tools.Certified Zoho CRM
 administrator participated in the complete cycle of a project, starting from requirement gathering to support handling.Looking

@@ -20,7 +20,7 @@ element.classList.add("current");
 function Header(){
   return(
 <div className="header">
-      <nav className="navbar navbar-expand-lg navbar-dark ">
+      <nav className="navbar fixed-top navbar-expand-lg navbar-dark ">
       <a class="navbar-brand" href="#Home">Krishnakumar</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -38,10 +38,9 @@ function Header(){
       </li>
     </ul>
   </div>
-  
-  </nav>
   <div className="bottom-border">
       </div>
+  </nav>
  
 </div>
   )

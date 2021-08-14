@@ -10,6 +10,7 @@ h1, p {
 }
 .projects-container
 {
+margin-top: 25px;
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
