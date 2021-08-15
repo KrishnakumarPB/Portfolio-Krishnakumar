@@ -6,6 +6,7 @@ import Memegenerator from "./Screenshots/Memegenerator.JPG"
 import Todos from "./Screenshots/todos.png"
 import Drums from "./Screenshots/drums.png"
 import Projectcard from './Projectcard'
+import Quotecenter from "./Screenshots/quotecenter.JPG"
 function Projects (){
     return(
 <div id="projects" className="inactive">
@@ -25,11 +26,15 @@ function Projects (){
         <Projectcard
         imgurl={Todos}
         liveurl="https://todo-list-live.netlify.app/"
-        title="Todo list"/>
+        title="Todo List"/>
         <Projectcard
         imgurl={Drums}
         liveurl="#"
         title="Drumpad"/>
+        <Projectcard
+        imgurl={Quotecenter}
+        liveurl="https://react-khde5v.stackblitz.io/"
+        title="Quote Center"/>
         </div>
 </div>
     )

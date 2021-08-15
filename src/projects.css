@@ -28,7 +28,7 @@ justify-content: center;
     
 }
 .card-container >img{
-    border:3px solid white;
+    border:3px solid rgb(0, 0, 0);
     height:300px;
     width:400px;
     border-radius: 5px;
@@ -66,16 +66,18 @@ justify-content: center;
 .project-title
 {
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.678);
+    background-color: rgb(12, 12, 12);
     border-radius: 5px;
     /* border:1px solid white; */
-    width:380px;
+    width:390px;
+    height:45px;
     text-align:center;
     top:255px;
-    left:0px;
+    right:5px;
     color: rgb(255, 255, 255);
     font-weight: 500;
     font-size: 20px;
     margin-left: 10px;
+    padding:5px;
     
 }
