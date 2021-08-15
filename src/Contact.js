@@ -1,4 +1,9 @@
 import React from 'react'
+import Linkedin from "./Screenshots/linkedin.png"
+import Github from "./Screenshots/github.png"
+import Instagram from "./Screenshots/instagram.jpg"
+import Stackoverflow from "./Screenshots/stackoverflow01.jpg"
+
 import "./style.css"
 function Contact(){
   return(
@@ -10,13 +15,21 @@ function Contact(){
             <hr/>
             📱+91 9605753599
             <hr/>
-            https://www.linkedin.com/in/krishnakumar-p-b-734567166/
+            <a href="https://www.linkedin.com/in/krishnakumar-p-b-734567166/" >
+            <img src={Linkedin} target="_blank" alt="img" width="75px" height="75px"></img>
+            </a>
             <hr/>
-            https://www.instagram.com/k_and_k_photomobiles/
+            <a href="https://www.instagram.com/k_and_k_photomobiles/">
+            <img src={Instagram} target="_blank" alt="img" width="75px" height="75px"></img>
+            </a>
             <hr/>
-            https://github.com/KrishnakumarPB
+            <a href="https://github.com/KrishnakumarPB">
+            <img src={Github} target="_blank" alt="img" width="75px" height="75px"></img>
+            </a>
             <hr/>
-            https://stackoverflow.com/users/15071536/krishnakumar
+            <a href="https://stackoverflow.com/users/15071536/krishnakumar">
+            <img src={Stackoverflow} target="_blank" alt="img" width="75px" height="75px"></img>
+            </a>
             </p>
         </div>
         <div class="col-6 profile">
