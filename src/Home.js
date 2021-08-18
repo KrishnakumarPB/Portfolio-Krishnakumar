@@ -4,7 +4,7 @@ function Home(){
   return(
     < div class="container current " id="home">
       
-    <div class="homecontent row " >
+    <div class="homecontent row  " >
         <div class="col-6 description">
           <p>
           <span className="title"> <span className="highlight"> I'm</span> Krishnakumar</span>
