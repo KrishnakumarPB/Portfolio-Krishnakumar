@@ -45,7 +45,7 @@ function Projects (){
         imgurl={Quotecenter}
         liveurl="https://react-khde5v.stackblitz.io/"
         title="Quote Center"
-        description="A static wesite of uotes of famous successful athletes along with their picture and name."
+        description="A static website of quotes of famous successful athletes along with their picture and name."
         uniqueid="105"/>
         </div>
 </div>

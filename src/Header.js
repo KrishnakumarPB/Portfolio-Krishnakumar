@@ -38,8 +38,7 @@ function Header(){
       </li>
     </ul>
   </div>
-  <div className="bottom-border">
-      </div>
+
   </nav>
  
 </div>

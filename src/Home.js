@@ -5,7 +5,7 @@ function Home(){
     < div class="container current " id="home">
       
     <div class="homecontent row  " >
-        <div class="col-6 description">
+        <div class="col-lg-6 col-sm-12 col-12 description">
           <p>
           <span className="title"> <span className="highlight"> I'm</span> Krishnakumar</span>
             <br/>
@@ -16,7 +16,7 @@ amazing software solutions.
             <br/>
             </p>
         </div>
-        <div class="col-6 profile">
+        <div class="col-lg-6 col-sm-12 col-12 profile">
           <img src="https://scontent.fcok10-1.fna.fbcdn.net/v/t31.18172-8/15777007_1893150684237326_3437282015691355825_o.jpg?_nc_cat=101&ccb=1-4&_nc_sid=cdbe9c&_nc_ohc=dnP4pTDnJyMAX954T_A&_nc_ht=scontent.fcok10-1.fna&oh=3b5a3dc5a65b85259cce29a510d266bd&oe=613A0C06" alt="img"></img>
             
         </div>
