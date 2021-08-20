@@ -7,6 +7,8 @@ import Todos from "./Screenshots/todos.png"
 import Drums from "./Screenshots/drums.png"
 import Projectcard from './Projectcard'
 import Quotecenter from "./Screenshots/quotecenter.JPG"
+import Dicegame from "./Screenshots/dicegame.JPG"
+import Guessnumber from "./Screenshots/guessnumber.JPG"
 function Projects (){
     return(
 <div id="projects" className="inactive">
@@ -47,6 +49,18 @@ function Projects (){
         title="Quote Center"
         description="A static website of quotes of famous successful athletes along with their picture and name."
         uniqueid="105"/>
+        <Projectcard
+        imgurl={Dicegame}
+        liveurl="https://roll-dice-live.netlify.app/"
+        title="Roll Dice"
+        description="A 2 player game where each player gets an opportunity to roll the dice until 1 occurs or give the chance to the opposite voluntarily.The player can hold the points and who ever reach 100 to become winner."
+        uniqueid="106"/>
+        <Projectcard
+        imgurl={Guessnumber}
+        liveurl="https://findthenumber.netlify.app/"
+        title="Guess the Number"
+        description="A simple game to find a hidden number between 1-20.Scores will be stored per session"
+        uniqueid="107"/>
         </div>
 </div>
     )
