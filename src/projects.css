@@ -92,14 +92,18 @@ align-items: center;
 .app-description
 {
 position: absolute;
-background-color: rgba(0, 0, 0, 0.493);
+background-color: rgba(0, 0, 0, 0.671);
 color: white;
 height: 0px;
 width: 400px;
 top:170px;
 font-size: 13px;
-padding:2px;
-font-weight: 10;
+padding:10px;
+font-weight: 400;
+}
+.app-description >p
+{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 @keyframes descmove {
