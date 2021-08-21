@@ -90,15 +90,7 @@ h1, p {
     width:70%;
     justify-content: center;
   }
-  .contact-label
-  {
-      display: flex;
-      justify-content: center;
-      text-align: center;
-      align-items: center;
-      font-size: 50px;
-      color: white;
-  }
+  
   @keyframes slideInFromLeft {
     0% {
       transform: translateX(-100%);

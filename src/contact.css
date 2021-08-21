@@ -1,0 +1,39 @@
+.contact-container
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-contact
+{
+    background-color: transparent;
+}
+.navbar >ul >li{
+    margin-top: 15px;
+    
+}
+.navbar >ul >li >p
+{
+    color: white;
+}
+.navbar >ul >li  >a{
+    color: white;
+}
+.navbar-contact >ul 
+{
+    flex-direction: column;
+    display: inline-block;
+}
+.contact-label >p
+  {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      font-size: 35px;
+      color: white;
+      text-decoration: underline rgb(245, 7, 19);
+      text-decoration-thickness: 4px;
+  }

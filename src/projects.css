@@ -41,23 +41,28 @@ align-items: center;
 .card-container:hover .app-description{
     transition: height 1s;
     height:80px;
+    z-index:2;
 }
-
-.card-container >img{
+.card-container:hover .project-img
+{
+    transform: scale(.9);
+}
+.card-container:hover .live-btn{
+    display: block;
+}
+.card-container .project-img{
     border:3px solid rgb(0, 0, 0);
     height:250px;
     width:400px;
     border-radius: 5px;
-    
+    transition: transform 1s ;
+    opacity: .8;
+    z-index:1;
 }
 .card-container >img:hover+.img
 {
     opacity:.7;
     background-color: rgb(0, 0, 0);
-}
-.card-container >img:hover +.live-btn
-{
-    background-color: blue;
 }
 .live-btn
 {
@@ -70,13 +75,16 @@ align-items: center;
     padding:5px;
     border-radius: 5px;
     text-decoration: none;
+    display:none;
+    transition: display opacity 5s ;
 }
 .live-btn:hover{
+    
     text-decoration: none;
     color: white;
-    background: blue;;
-    border:1px solid rgb(255, 255, 255);
-    height:38px;
+    background: transparent;
+    border:none;
+    background-color: rgb(241, 52, 18)
 }
 
 .project-title
@@ -98,7 +106,7 @@ align-items: center;
 .app-description
 {
 position: absolute;
-background-color: rgba(0, 0, 0, 0.671);
+background-color: rgb(0, 0, 0);
 color: white;
 height: 0px;
 width: 400px;

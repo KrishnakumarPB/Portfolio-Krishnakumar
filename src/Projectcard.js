@@ -19,7 +19,7 @@ function Projectcard (props){
             
            <div className="card-container" onMouseOver={()=>showDesc(props.uniqueid)} onMouseOut={()=>hideDesc(props.uniqueid)} id={props.uniqueid} >
                <div className="app-description hidden"><p>{props.description}</p></div>
-               <img src={props.imgurl} alt="img"/>
+               <img className='project-img' src={props.imgurl} alt="img"/>
                <a class=" live-btn" href={props.liveurl} target="_blank" rel="noreferrer">
                     View Live
                 </a>
