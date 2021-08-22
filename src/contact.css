@@ -28,12 +28,12 @@
 }
 .contact-label >p
   {
-      display: flex;
+      display: block;
       justify-content: center;
       text-align: center;
       align-items: center;
       font-size: 35px;
-      color: white;
+      color: rgb(255, 255, 255);
       text-decoration: underline rgb(245, 7, 19);
       text-decoration-thickness: 4px;
   }

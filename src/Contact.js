@@ -7,10 +7,11 @@ import Stackoverflow from "./Screenshots/stackoverflow01.jpg"
 import "./contact.css"
 function Contact(){
   return(
-    < div class="container contact-container inactive" id="contact">
-      <div class="col-12 contact-label">
+    <div className="inactive" id="contact">
+    < div className="container contact-container" >
+    <div className=" contact-label" >
           <p >Contact Me @</p>   
-        </div>
+      </div>
     <div class="navbar navbar-contact navbar-expand-lg" >
      
         <ul class="navbar-nav mr-auto">
@@ -37,6 +38,7 @@ function Contact(){
         </ul>
         
     </div>
+</div>
 </div>
   )
 }
