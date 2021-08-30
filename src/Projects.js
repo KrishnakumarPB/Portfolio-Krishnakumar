@@ -23,7 +23,7 @@ function Projects (){
         uniqueid="100"/>
         <Projectcard
         imgurl={Moviereview}
-        liveurl="https://react-jhdixq.stackblitz.io"
+        liveurl="https://movie-center.netlify.app/"
         title="Movie Review"
         description="A movie information center which the user gets some famous movie's name title and its release date along with plot"
         uniqueid="101"/>
