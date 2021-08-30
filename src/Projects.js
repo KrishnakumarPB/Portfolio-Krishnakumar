@@ -9,6 +9,8 @@ import Projectcard from './Projectcard'
 import Quotecenter from "./Screenshots/quotecenter.JPG"
 import Dicegame from "./Screenshots/dicegame.JPG"
 import Guessnumber from "./Screenshots/guessnumber.JPG"
+import Stockprize from "./Screenshots/stockprize.JPG"
+import Cashcounter from "./Screenshots/cashcounter.JPG"
 function Projects (){
     return(
 <div id="projects" className="inactive">
@@ -61,6 +63,18 @@ function Projects (){
         title="Guess the Number"
         description="A simple game to find a hidden number between 1-20.Scores will be stored per session"
         uniqueid="107"/>
+        <Projectcard
+        imgurl={Cashcounter}
+        liveurl="https://cash-counter-live.netlify.app/"
+        title="Cash Counter"
+        description="An application takes two inputs from user of bill amount and received amount and gives a result of currency denomination of rest of the amount"
+        uniqueid="108"/>
+        <Projectcard
+        imgurl={Stockprize}
+        liveurl="https://stock-prize-analyzer.netlify.app/"
+        title="Stock Prize Analyzer"
+        description="Application takes input of information bout stock prize and quantity along with todays prize and calculate the profit and margin of of todays prize"
+        uniqueid="109"/>
         </div>
 </div>
     )

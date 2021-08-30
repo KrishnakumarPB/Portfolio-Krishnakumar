@@ -11,7 +11,7 @@ function Home(){
             <br/>
             Software developer having 2 years of experience in a startup firm of customizing Zoho online tools.Certified Zoho CRM
 administrator participated in the complete cycle of a project, starting from requirement gathering to support handling.Looking
-forward for further improvement on modern technologies like MERN stack where I can imply my conviction towards creating
+forward for working on modern technologies like MERN where I can imply my conviction towards creating
 amazing software solutions.
             <br/>
             </p>
