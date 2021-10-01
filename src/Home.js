@@ -17,7 +17,7 @@ amazing software solutions.
             </p>
         </div>
         <div class="col-lg-6 col-sm-12 col-12 profile">
-          <img src="https://scontent.fcok10-1.fna.fbcdn.net/v/t31.18172-8/15777007_1893150684237326_3437282015691355825_o.jpg?_nc_cat=101&ccb=1-4&_nc_sid=cdbe9c&_nc_ohc=dnP4pTDnJyMAX954T_A&_nc_ht=scontent.fcok10-1.fna&oh=3b5a3dc5a65b85259cce29a510d266bd&oe=613A0C06" alt="img"></img>
+          <img src="https://scontent.fcok1-1.fna.fbcdn.net/v/t31.18172-8/15777007_1893150684237326_3437282015691355825_o.jpg?_nc_cat=101&ccb=1-5&_nc_sid=cdbe9c&_nc_ohc=aSMMwytMQhcAX8jgslF&_nc_ht=scontent.fcok1-1.fna&oh=c6660208dc66509bc0c2874bcc0b5283&oe=617D4886" alt="img"></img>
             
         </div>
     </div>
