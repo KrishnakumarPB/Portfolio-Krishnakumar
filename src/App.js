@@ -10,7 +10,7 @@ export default function App() {
       <Header/>
         
       <div >
-      <h1>Portfolio</h1>
+      <h1>Portfolio..</h1>
       <Home/>
       <Projects/>
       <Contact/>
